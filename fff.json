@@ -1,0 +1,1 @@
+{"size":10,"query":{"bool":{"filter":[{"query_string":{"analyze_wildcard":true,"query":"describeHealth.status: \"Failure\" "}}],"must":[{"match_phrase":{"customerId":{"query":5065}}},{"match_phrase":{"region":{"query":"eu-south-1"}}},{"match_phrase":{"describeHealth.taskDefinitionName":{"query":"Vpc"}}}]}}} 
